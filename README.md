@@ -31,7 +31,7 @@
 
 > 01_nav_footer.html
 
-![nav_footer.html 완성본 이미지](../../img/nav_footer.png)
+![nav_footer.html 완성본 이미지](img/nav_footer.png)
 
 - navbar 좌측에는 영화 로고가 배치됩니다.
 - 항목은 Home, Community, Login로 구성되어 있습니다.
@@ -39,13 +39,13 @@
     - Community는 03_community.html으로 링크를 구성합니다.
     - Login은 Modal이 팝업됩니다.
         
-        ![nav_footer.html modal 이미지](../../img/nav_footer_modal.png)
+        ![nav_footer.html modal 이미지](img/nav_footer_modal.png)
         
 - footer는 컨텐츠 최하단에 배치됩니다. 내용은 자유롭게 구성합니다.
 
 > 02_home.html
 
-![home.html 완성본 이미지](../../img/home.png)
+![home.html 완성본 이미지](img/home.png)
 
 - 01_nav_footer.html에서 작성한 Navigation bar & Modal & Footer 코드를 적절한 위치에 사용합니다.
 - Carousel을 활용하여 이미지가 자동으로 전환될 수 있도록 합니다.
@@ -54,24 +54,24 @@
 - 영화 목록의 카드 배치는 반응형으로 합니다.
     - Viewport의 가로 크기가 576px 미만일 경우 한 행에 1개씩 표시됩니다.
         
-        ![home.html의 boxoffice에서 1개 column 이미지](../../img/boxoffice_01.png)
+        ![home.html의 boxoffice에서 1개 column 이미지](img/boxoffice_01.png)
         
     - Viewport의 가로 크기가 576px 이상일 경우 한 행에 2개 이상 표시됩니다.(자유롭게 설정 가능)
         
-        ![home.html의 boxoffice에서 2개 column 이미지](../../img/boxoffice_02.png)
+        ![home.html의 boxoffice에서 2개 column 이미지](img/boxoffice_02.png)
         
-        ![home.html의 boxoffice에서 3개 column 이미지](../../img/boxoffice_03.png)
+        ![home.html의 boxoffice에서 3개 column 이미지](img/boxoffice_03.png)
 
 
 > 03_community.html
 
 - 992px 이상일 때 게시판 
 
-  ![](../../img/community_01.png)
+  ![](img/community_01.png)
 
 - 992px 미만일 때 게시판 
 
-  ![](../../img/community_02.png)
+  ![](img/community_02.png)
 
 - 01_nav_footer.html에서 작성한 Navigation bar & Modal & Footer 코드를 적절한 위치에 사용합니다.
 - Community 페이지는 크게 게시판 목록과 게시판으로 이루어져 있으며 반응형입니다.
