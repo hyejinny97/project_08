@@ -1,4 +1,4 @@
-# 프로젝트 07 - 부트스트랩을 활용한 영화 사이트 웹 구현
+# 프로젝트 08 - 부트스트랩을 활용한 영화 사이트 웹 구현
 
 
 
@@ -27,6 +27,8 @@
 
 
 ## 요구 사항
+### 첫째날 (2022.09.13)
+
 > 01_nav_footer.html
 
 ![nav_footer.html 완성본 이미지](../../img/nav_footer.png)
@@ -82,26 +84,62 @@
     - Viewport의 가로 크기가 992px 미만일 경우 게시판은 카드 형식으로 구성됩니다.
     - Viewport의 가로 크기가 992px 이상일 경우 테이블 형식으로 구성되며, HTML main 요소 영역 기준으로 우측 5/6 만큼의 너비를 가집니다.
 
+### 둘째날 (2022.09.14)
+
+> 04_form.html
+
+- `03_community.html` 에서 글 작성하기 버튼을 적절한 위치에 만들고 누르면 해당 페이지로 이동합니다.
+- 리뷰 작성을 위한 페이지를 자유롭게 설계하여 제작합니다.
+- 예시
+
+   ![](img/form_page.png)
+
+   ![](img/form_page_select.png)
+
+> 05_movie.html
+
+- `02_home.html` 에서 쇼생크 탈출 카드를 누르면 해당 페이지로 이동합니다.
+- 영화 상세 페이지를 자유롭게 설계하여 제작합니다.
+- 참고
+  - [https://movie.daum.net/moviedb/main?movieId=1368](https://movie.daum.net/moviedb/main?movieId=1368)
+  - [https://movie.naver.com/movie/bi/mi/basic.naver?code=17421](https://movie.naver.com/movie/bi/mi/basic.naver?code=17421)
+  - [https://www.themoviedb.org/movie/278-the-shawshank-redemption?language=ko](https://www.themoviedb.org/movie/278-the-shawshank-redemption?language=ko)
+  - [https://www.wavve.com/player/movie?movieid=MV_CD01_WR0000011371](https://www.wavve.com/player/movie?movieid=MV_CD01_WR0000011371)
+  - [https://watcha.com/ko-KR/contents/mNdKBkO](https://watcha.com/ko-KR/contents/mNdKBkO)
+- 예시
+
+    ![](img/movie_page_main.png)
+
+    ![](movie/../img/movie_page_review.png)
+
+> 사이트 추가 설정
+
+- 웹 폰트를 적용 해봅니다.
+- favicon을 적용 해봅니다.
+- 완성된 페이지를 GitHub Pages를 통해 배포합니다.
+    - GitHub Pages를 추가 활용하기 위해서 두가지 방법이 있습니다.
+        - **필수: `02_home.html`을 `index.html`으로 변경할 것**
+        1. 조직(Organization) 생성하기
+            1. 예) fakewatcha 조직 생성 후 [fakewatcha.github.io](http://fakewatcha.github.io) 저장소를 만들어서 활용
+        2. 별도의 저장소를 생성하기
+            1. Settings > Pages 설정 가능한 옵션이 있습니다.
+
+> (개인 또는 팀) 자유 실습
+
+- 위의 영화 사이트들을 참고하여 영화 목록 혹은 상세 페이지 등을 자유롭게 꾸며봅니다.
+
 
 
 ## 프로젝트 결과 완성본
-> 01_nav_footer.html
 
-![](../../gif/nav_footer_animation.gif)
+![](gif/project_08_final_animation.gif)
 
-> 02_home.html
-
-![](../../gif/home_animation.gif)
-
-> 03_community.html
-
-![](../../gif/community_animation.gif)
 
 
 
 ## 프로젝트 후기
 
-> 페어프로그래밍/웹 개발 후기
+> 첫째날) 페어프로그래밍/웹 개발 후기
 
 오늘 두번째로 페어 프로그래밍을 진행하였다. 2인 1조로 조가 나뉘어졌고 한 명은 드라이버, 다른 한 명은 네비게이터가 되어 일정 파트 구현이 끝나면 역할을 계속 체인지해가면서 영화 사이트를 만들었다. 
 
@@ -113,3 +151,14 @@
 community 페이지에서 aside 태그와 table 태그 card 태그들을 viewport에 따라 다르게 배치하면서 동시에 table과 card 둘 중 하나만 보이게 하는 부분이 가장 구현해내기 어려웠다. 노트에 그리드 시스템의 전체적인 구조를 적어가며 어떤 식으로 코드를 짜야할지 고심한 끝에, position도 viewport에 따라 none이나 block를 주면 될 것 같다는 생각을 했다. 상상한 대로 코드를 짜본 결과, 다행히 원하는 대로 잘 구현이 되었다. 
 
 저번 페어 프로그래밍할 때도 느꼈지만, 다른 사람과 함께 하나의 페이지를 만드는 과정은 훨씬 시간 단축적이고 많은 것을 배울 수 있는 뜻 깊은 시간인 것 같다. '왜 이 태그에 마진을 줬는데 먹히지가 않는 걸까요?'라며 질문하고 같이 고민하고 해결해 나가면서 동지애도 느끼고 배로 뿌듯함을 느꼈던 감사한 시간이었다. 
+
+
+> 둘째날) 페어프로그래밍/웹 개발 후기
+
+오늘은 어제 만든 영화 웹 사이트에 이어 몇 가지 페이지를 덧붙혀 보았다. 일단 form 페이지는 내가 네비게이터가 되고 조원분이 드라이버가 되어서 구현했다. 
+
+다음으로 movie 페이지는 내가 드라이버가 되어서 페이지를 구성했다. 명세서에 적혀있는 실제 여러 웹 사이트를 탐색하며 어떤 기능을 어떻게 넣을지 조원분과 코드구현하기 전에 상당히 오랫동안 대화를 나누었다. 'Daum' 영화 소개 페이지와 유사하게 구현해보기로 결정하고 코드를 짜기 시작했다. 개봉, 평점 등이 적혀있는 부분을 어떻게 구현할지 한참을 논의한 끝에 테이블 태그로 만들게 되었다. 영화정보 옆에 느낌표 아이콘이 있는데 이 부분은 부트스트랩의 popover 기능을 사용해서 눌렀을 때 말풍선같이 글이 나타나게 했다. 다음으로 부트스트랩의 Nab&Tab 기능을 이용해서 주요정보/출연/영화를 표시해 주었고, 내부 링크를 걸어놔 각각을 클릭하면 해당 위치로 스크롤이 내려가게 했다. 이후엔 출연진 파트를 구현했고, 유튜브 동영상을 iframe 태그를 이용해서 넣어주었다.
+
+다음으로 조원분께 드라이버를 넘기고, home 페이지 내 영화 카드들 위로 숫자 아이콘과 몇 세 관람가인지 알려주는 이미지를 넣었다. 처음 바로 숫자 아이콘을 올렸을때는 숫자가 카드 뒤에 가려져서 보이지 않아서 z-index를 주어 카드 앞으로 오게 했다.
+
+아직 더 구현해보고싶은 기능도 많고 눈에 보이는 부족한 부분도 있지만, 오늘 가장 뜻 깊었던 것은 다른 사람과 같이 고민하고 논의하며 하나의 웹 사이트를 구현했다는 것과, 몇가지 색다른 기능을 구현하는 과정에서 비록 실패는 했지만 여러 다양한 방식을 도전해 보았던 것이 의미있었다. 
