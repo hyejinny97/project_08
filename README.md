@@ -134,6 +134,8 @@
 
 ![](gif/project_08_final_animation.gif)
 
+- 깃헙 페이지 링크: <https://hyejinny97.github.io/project_08/>
+
 
 
 
